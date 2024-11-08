@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Fondo de color rojo en el centro y imagen en los laterales */
+        body {  
+    background-image: url('fondo.jpg.jpg'), url('fondo.jpg.jpg'); /* Aplica la imagen a ambos lados */
+    background-repeat: repeat-y, repeat-y; /* Repite la imagen verticalmente en los lados */
+    background-size: 300px auto, 300px auto; /* Ajuste proporcional de la imagen en los laterales */
+    background-position: left top, right top; /* Posiciona la imagen en el lado izquierdo y derecho */
+    color: #333;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+        /* Contenedor central */
+        .content {
+            max-width: 1158px;
+            padding: 20px;
+            background-color: rgba(214, 32, 11, 0.9); /* Fondo azul semitransparente */
+            border-radius: 0px;
+            text-align: center;
+            color: rgb(175, 28, 28);
+        }
+        h1 {  
+    color: rgb(13, 13, 204);            /* Color del texto */
+    margin: 0 0 20px;                   /* Margen inferior */
+    display: inline-block;              
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Arial', sans-serif;   /* Fuente principal */
+    font-size: 36px;                    /* Tamaño de la fuente */
+    font-weight: bold;                  /* Negrita para destacar */
+    letter-spacing: 2px;                /* Espacio entre letras */
+    text-transform: uppercase;          /* Texto en mayúsculas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Sombra suave */
+
+    /* Animación de degradado en el color del texto */
+    background: linear-gradient(90deg, rgb(13, 13, 204), rgb(0, 204, 204));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientText 3s ease infinite;
+}
+/* Definición de la animación de degradado */
+@keyframes gradientText {
+    0% { background-position: 0%; }
+    100% { background-position: 100%; }
+}
+        h2 {
+            color: rgb(32, 32, 159);
+            text-align: left;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 20px;
+            text-align: justify;
+            margin: 10px 0;
+            color: rgb(0, 0, 0);
+            line-height: 1.5;
+            font-style: italic;
+        }
+        ul, ol {
+            font-size: 20px;
+            text-align: left;
+            color: rgb(0, 0, 0);
+            margin: 10px 0;
+            font-style: arial;
+        }
+        li {
+    font-size: 20px;              /* Tamaño de fuente */
+    color: #b5a8a8;                   /* Color del texto */
+    margin-bottom: 10px;           /* Espaciado inferior entre elementos */
+    line-height: 1.5;              /* Espacio entre líneas */
+    padding-left: 20px;            /* Separación del borde izquierdo */
+    list-style-type: disc;         /* Tipo de viñeta */
+}
+.fila-imagenes {
+    display: flex;                  /* Muestra los elementos en fila */
+    gap: 20px;                      /* Espacio entre cada imagen */
+    justify-content: center;        /* Centra la fila */
+    align-items: center;            /* Alinea verticalmente */
+    margin-top: 20px;
+}
+
+/* Estilos para cada camisa */
+.camisa {
+    text-align: left;             /* Centra el texto y la imagen */
+}
+
+.camisa img {
+    width: 150px;                   /* Tamaño de cada imagen */
+    height: auto;
+    border-radius: 8px;             /* Bordes redondeados */
+}
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>FC Barcelona</h1>
+        <h2>HISTORIA</h2>
+        <p>El FC Barcelona, fundado en 1899 por Joan Gamper, es uno de los clubes de fútbol más emblemáticos del mundo. Desde sus inicios, el equipo ha sido un símbolo de la identidad catalana y se ha distinguido por su estilo de juego ofensivo y atractivo. A lo largo de su historia, ha tenido momentos gloriosos, como el "Dream Team" de Johan Cruyff en los años 90, que ganó su primera Champions League en 1992, y la era dorada bajo la dirección de Pep Guardiola entre 2008 y 2012, cuando, liderado por Lionel Messi, dominó Europa y revolucionó el fútbol mundial. Conocido por su lema "Més que un club" (Más que un club), el Barcelona es un referente no solo deportivo, sino también cultural y social en el fútbol global.</p>
+        <h2>FILOSOFÍA DE JUEGO</h2>
+        <p>El Barcelona ha sido pionero en su estilo de juego basado en la posesión y la técnica. La filosofía del club se caracteriza por el "juego de posición" y el "tiki-taka", un sistema de pases cortos y movimiento constante. Este enfoque fue popularizado por Johan Cruyff y perfeccionado en la época de Guardiola, y ha servido como inspiración para otros equipos y entrenadores alrededor del mundo.</p>
+        <h2>ESTADIO</h2>
+        <p>El estadio del FC Barcelona, conocido como el Camp Nou, fue inaugurado en 1957 y es uno de los recintos más grandes de Europa, con capacidad para más de 99,000 espectadores. Es un símbolo de la ciudad y una atracción para millones de aficionados cada año. El Camp Nou ha sido testigo de momentos históricos y actualmente está en proceso de renovación para ofrecer una experiencia moderna.</p>
+        <h2>RIVALIDADES</h2>
+        <p>El clásico español entre el FC Barcelona y el Real Madrid es una de las rivalidades más intensas del deporte. Este enfrentamiento histórico refleja no solo la competencia deportiva, sino también las tensiones culturales y políticas entre Cataluña y el resto de España. Este clásico es seguido por millones de personas en todo el mundo y es una de las citas más esperadas de cada temporada.</p>
+        <h2>TÍTULOS</h2>
+        <ul >
+            <li style="color: black;">31 Copas del Rey</li>
+            <li style="color: black;">14 Supercopas de España</li>
+            <li style="color: black;">2 Copas de la Liga</li>
+            <li style="color: black;">5 Champions League</li>
+            <li style="color: black;">3 Mundiales de clubes</li>
+            <li style="color: black;">5 Supercopas de Europa</li>
+            <li style="color: black;">4 Recopas de Europa</li>
+        </ul>
+        <h2>LEYENDAS DEL CLUB</h2>
+        <ul>
+            <li>Johan Cruyff</li>
+            <p>Cruyff llegó como jugador en 1973, liderando al Barça en una época difícil y ganando la Liga en 1974. Más tarde, como entrenador, revolucionó el fútbol del equipo con su estilo de "juego de posición" y fundó el concepto de "Dream Team". Su influencia en la filosofía del club es innegable y perdura hasta hoy.</p>
+            <li>Ronaldinho</li>
+            <p>
+                Este carismático brasileño trajo alegría y magia al Camp Nou en los años 2000. Ganó dos Ligas y una Champions League en 2006, devolviendo al Barcelona a la élite del fútbol. Su habilidad y carisma lo convirtieron en un favorito de los aficionados, e inspiró a toda una generación de jugadores jóvenes, incluyendo a Lionel Messi.
+            </p>
+            <li>Andrés Iniesta</li>
+            <p>
+                Uno de los centrocampistas más talentosos de la historia, Iniesta fue clave en el Barça durante más de una década. Destacó por su visión, precisión y capacidad de marcar goles decisivos, como el que aseguró la semifinal contra el Chelsea en 2009. Su asociación con Xavi Hernández fue fundamental para el dominio del Barcelona en Europa.
+            </p>
+            <li>Xavi Hernández</li>
+            <p>
+                Maestro del medio campo, Xavi es considerado uno de los jugadores más inteligentes y técnicos del Barcelona. Fue el cerebro detrás del estilo de posesión del equipo, con un control de balón y visión incomparables. Su liderazgo en el campo fue crucial para los éxitos del Barça en la era de Guardiola.
+            </p>
+            <li>Lionel Messi</li>
+            <p>
+                La máxima leyenda del club y el goleador histórico, Messi llevó al Barcelona a un nivel de éxito sin precedentes. Ganó 10 Ligas, 7 Copas del Rey, 4 Champions League y múltiples premios individuales, incluyendo 7 Balones de Oro. Su habilidad, longevidad y lealtad al club lo convierten en el jugador más emblemático del Barça.
+            </p>
+        </ul>
+        <h2>MÁXIMOS GOLEADORES</h2>
+        <ol>
+            <li >Lionel Messi (2004/21): 672 goles</li>
+            <p>
+                Considerado uno de los mejores jugadores de todos los tiempos, Messi es el máximo goleador de la historia del Barcelona. Su habilidad para eludir defensas, su precisión en el disparo y su creatividad en el campo le permitieron marcar goles en todas las competiciones. Durante su tiempo en el Barça, Messi ganó cuatro Champions League, diez Ligas y se convirtió en el rostro del equipo a nivel mundial, estableciendo récords de goles y asistencias en múltiples temporadas.
+            </p>
+            <li>César Rodríguez (1942/55): 230 goles</li>
+            <p>
+                Delantero letal en la época de los años 40 y 50, César fue un símbolo del club y uno de los jugadores más eficaces de su tiempo. Con su increíble capacidad para el remate y su instinto goleador, ayudó al Barcelona a ganar cinco títulos de Liga. Su marca de 230 goles se mantuvo como récord durante décadas hasta que fue superada por Messi. Es recordado como uno de los primeros ídolos del Barça.
+            </p>
+            <li>Ladislao Kubala: 194 goles</li>
+            <p>
+                Kubala es una leyenda del Barcelona y uno de los jugadores más queridos de la afición. Nacido en Hungría, llegó al Barça en 1951 y rápidamente se ganó el corazón de los seguidores con su destreza técnica, fuerza física y visión de juego. Su estilo de juego polivalente le permitió jugar en varias posiciones, destacando tanto como goleador como asistente. Kubala fue fundamental en la construcción del Camp Nou y llevó al club a una de sus primeras épocas doradas.
+            </p>
+            <li>José Samitier: 184 goles</li>
+            <p>
+                Conocido como "El Mago", Samitier fue una de las primeras estrellas del fútbol español y una figura clave para el Barça en los años 20 y 30. Además de ser un prolífico goleador, su elegancia y habilidades en el campo le hicieron ganar una gran popularidad. Jugó en varias posiciones y fue un pionero en el desarrollo del estilo ofensivo del Barcelona, ayudando al club a ganar cinco Campeonatos de España.
+            </p>
+            <li>Samuel Eto'o: 130 goles</li>
+            <p>
+                El delantero camerunés fue una pieza fundamental del Barcelona en la década de 2000. Su velocidad, energía y precisión frente al arco lo convirtieron en uno de los delanteros más temidos de Europa. Con el Barça, Eto'o ganó tres Ligas y dos Champions League, incluyendo la histórica final de 2009 en la que anotó el primer gol. Es recordado por su determinación y espíritu competitivo, que inspiraron a sus compañeros y a los aficionados.
+            </p>
+            <li>Rivaldo: 130 goles</li>
+            <p>
+                Rivaldo fue una de las estrellas del Barcelona a finales de los 90 y principios de los 2000. Su habilidad para regatear, su potencia en el disparo y su capacidad para marcar goles espectaculares le hicieron ganar el Balón de Oro en 1999. Entre sus goles más memorables está una chilena en el último minuto contra el Valencia, que aseguró al Barcelona la clasificación a la Champions League. Rivaldo sigue siendo recordado como uno de los talentos más brillantes que pasaron por el Camp Nou.
+            </p>
+        </ol>
+        <h2>CAMISETAS MAS REPRESENTATIVAS</h2>
+        <div class="fila-imagenes">
+            <div class="camisa">
+                <img src="Camiseta 1.jpeg" alt="Camisa 1">
+                <p><a href="https://players.fcbarcelona.com/es/cronologia/2014" style="color: #941212;">Temporada 2015</a></p>
+            </div>
+            <div class="camisa">
+                <img src="Camiseta 2.jpeg" alt="Camisa 2">
+                <p><a href="https://players.fcbarcelona.com/es/cronologia/1999" style="color: blue;">Temporada 1999</a></p>
+            </div>
+            <div class="camisa">
+                <img src="Camiseta 3.jpeg" alt="Camisa 3">
+                <p><a href="https://players.fcbarcelona.com/es/cronologia/2009" style="color: #941212;">Temporada 2009</a></p>
+            </div>
+        </div>
+       
+</body>
+</html>
